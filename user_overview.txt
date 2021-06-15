@@ -1,0 +1,35 @@
+User report generated on 2021-06-05
+
+Total number of user:	5
+Total  tasks generated:	5
+
+Statistics per user:
+
+admin
+Total tasks assigned:			2
+Percentage of tasks assigned:		40.0%
+Percentage of tasks completed:		50.0%
+Percentage of tasks uncompleted:	50.0%
+Percentage of tasks overdue:		0%
+
+piet
+Total tasks assigned:			1
+Percentage of tasks assigned:		20.0%
+Percentage of tasks completed:		0%
+Percentage of tasks uncompleted:	100.0%
+Percentage of tasks overdue:		100.0%
+
+jan
+Total tasks assigned:			1
+Percentage of tasks assigned:		20.0%
+Percentage of tasks completed:		0%
+Percentage of tasks uncompleted:	100.0%
+Percentage of tasks overdue:		100.0%
+
+frank
+Total tasks assigned:			1
+Percentage of tasks assigned:		20.0%
+Percentage of tasks completed:		0%
+Percentage of tasks uncompleted:	100.0%
+Percentage of tasks overdue:		100.0%
+

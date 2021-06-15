@@ -1,0 +1,72 @@
+
+Capstone Project IV
+
+	* Modification of cappstone project III
+	
+Modification plan:
+Phase I - defining functions
+
+1) Modify the user registration program option into a function called 'reg_user'.									completed
+2) Modify the add task program option into a function called 'add_task'.										completed
+3) Modify the view all tasks program option into a function called 'view_all'.										completed
+4) Modify the view my tasks program option into a function called 'view_mine'.										completed
+
+Phase II - additions to 'reg_user' function
+
+	* The user should not be able to use a registered user name.
+
+1) Function needs to read the data from 'user.txt'.													completed														
+2) New username needs to be checked with all registered user names.											completed
+3) If new username is the same as any if the registered usernames print error message.									completed
+4) Run this feature in a loop to allow the user to try again.												completed
+
+Phase III - additions to 'view_mine' function
+
+	* Adding more functionality to this feature allowing user to edit specific tasks.
+	
+1) Tasks need to be enumerated for an added task calling feature.											completed
+2) Add another input layer that allows user to call a task based on enumerated number.									
+3) User should get two option on called task.
+	i) Mark task as complete in which case the 'tasks.txt' file needs to be updated to status 'Yes'.						completed
+	ii) Edit task to allow user to change who the task is assigned to or the due date.								completed
+	iii) Task edit feature should only be available if task status is 'No'.										completed
+
+Phase IV - add new menu option
+
+	* New option to menu to generate reports.
+	
+1) New menu option should read 'gr - generate reports'
+
+Phase V - 'generate reports' functionality
+
+1) Selecting this option should trigger functions in the program to create two files:
+   'task_overview.txt' and task 'user_overview.txt'.
+
+	Program should write the following data to 'task_overview.txt':
+	i) Total number of tasks that have been generated with the 'task_manager.py' program.
+	ii) Total number of completed tasks in 'tasks.txt'.
+	iii) Total number of uncompleted tasks in 'tasks.txt'.
+	iv) Total number of overdue tasks in 'tasks.txt'.
+	v) The percentage of tasks that are incomplete in 'tasks.txt'.
+	vi) The percentage of tasks that are overdue in 'tasks.txt'.
+	
+	Program should write the following data to 'user_overview.txt':
+	i) The total number of users currently registered with the 'task_manager.py' program.
+	ii) Total number of tasks that have been generated with the 'task_manager.py' program.
+	iv) For each registered user the following needs to be written to file:
+		a) Total tasks assigned to user.
+		b) Percentage of total live tasks assigned to user.
+		c) Percentage of user tasks completed.
+		d) Percentage of user tasks uncompleted.
+		e) Percentage of user tasks overdue.
+
+2) All data written to both files needs to be output in easy to read manner on screen.
+
+Phase VI - modifications to statistics feature
+
+1) Rename the menu selection text to 'ds - display statistics'.
+2) Read and output data from 'task_overview.txt' and 'user_overview.txt'.
+3) If these files do not exist call the functions to generate the reports first.
+
+
+   

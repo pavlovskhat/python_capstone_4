@@ -1,0 +1,5 @@
+admin, Register Users with taskManager.py, Use taskManager.py to add the usernames and passwords for all team members that will be using this program., 2019-09-10, 2021-07-14, No
+admin, Assign initial tasks, Use taskManager.py to assign each team member with appropriate tasks, 2019-09-10, 2021-06-05, Yes
+piet, collect ink, collect printer ink, 2021-05-24, 2021-05-25, No
+jan, print labels, print labels, 2021-05-24, 2021-05-01, No
+frank, buy lunch, buy lunch, 2021-05-24, 2021-05-26, No

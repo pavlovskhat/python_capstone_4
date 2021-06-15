@@ -1,0 +1,8 @@
+Task report generated on 2021-06-05
+
+Total tasks generated:		5
+Total tasks completed:		1
+Total tasks uncompleted:	4
+Total tasks overdue:		3
+Percentage of tasks incomplete:	80.0%
+Percentage of tasks overdue:	60.0%
