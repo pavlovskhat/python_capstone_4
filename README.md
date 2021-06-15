@@ -2,6 +2,8 @@
 ###### Added more functionality to the task manager program from
 capstone project 3.
 
+link to capstone 3: [GitHub](https://github.com/pavlovskhat/python_capstone_3)
+
 ## Added the following functions to the program
 1. Enhanced the program flow by converting main functions to methods.
 2. Added methods to any repetitive program actions.
